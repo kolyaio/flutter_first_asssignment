@@ -7,10 +7,13 @@ class TextOutput extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    return Column(
-      children: <Widget>[
-        Text(this.textWillChange),
-      ],
+    return Container(
+      margin: EdgeInsets.only(top: 10.0),
+        child: Column(
+          children: <Widget>[
+          Text(this.textWillChange),
+        ],
+      ),
     );
   }
 }

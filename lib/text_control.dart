@@ -17,7 +17,7 @@ class _TextControlState extends State<TextControl> {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    return Container(
+    return Center(child: Container(
         margin: EdgeInsets.all(10.0),
         child: Column(children: <Widget>[
           RaisedButton(
@@ -29,7 +29,7 @@ class _TextControlState extends State<TextControl> {
             child: Text("Change The Text"),
           ),
           TextOutput(this._textWillChange)
-        ]));
+        ])));
   }
 
   @override
